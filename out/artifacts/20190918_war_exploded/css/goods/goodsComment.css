@@ -1,0 +1,105 @@
+.comment-main {
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.comment-top {
+    position: relative;
+    margin: 0em auto;
+    width: 88.6em;
+}
+
+.comment-top h2 {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #616161;
+    -webkit-font-smoothing: antialiased;
+}
+
+.comment-info {
+    position: relative;
+    height: 24em;
+    width: 56.5em;
+    background-color: #fff;
+}
+
+.comment-info img {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    top: 2.8em;
+    left: 2.8em;
+}
+
+.comment-info .name {
+    position: relative;
+    top: 0.3em;
+    left: 3.5em;
+    font-size: 16px;
+    color: #8d665a;
+}
+
+.comment-info .time {
+    position: relative;
+    top: 2em;
+    left: 1.7em;
+    color: #b0b0b0;
+}
+
+.comment-info .eval {
+    position: relative;
+    top: 1em;
+    left: 31.1em;
+    color: #ff7b33;
+    font-size: 16px;
+}
+
+.comment-info .eval i {
+    color: #ff7b33;
+    font-size: 23px;
+}
+
+.comment-info a {
+    position: relative;
+    top: 3.6em;
+    left: -8.6em;
+    color: #616161;
+    font-size: 18px;
+}
+
+.comment-info .img {
+    position: relative;
+    left: 5em;
+    top: 3em;
+
+}
+
+.comment-info .img img {
+    position: relative;
+    width: 160px;
+    height: 159.325px;
+}
+
+.num img {
+    position: absolute;
+    width: 407.6px;
+    height: 188.1px;
+    left: 57.7em;
+    top: 3.7em;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

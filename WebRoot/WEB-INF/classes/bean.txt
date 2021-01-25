@@ -1,0 +1,15 @@
+Transaction=com.liao.transaction.impl.TransactionImpl
+UserDao=com.liao.dao.impl.UserDaoImpl
+UserService=com.liao.service.impl.UserServiceImpl
+GoodsDao=com.liao.dao.impl.GoodsDaoImpl
+GoodsService=com.liao.service.impl.GoodsServiceImpl
+CategoryDao=com.liao.dao.impl.CategoryDaoImpl
+CategoryService=com.liao.service.impl.CategoryServiceImpl
+ShoppingCartDao=com.liao.dao.impl.ShoppingCartDaoimpl
+ShoppingCartService=com.liao.service.impl.ShoppingCartServiceImpl
+AddressDao=com.liao.dao.impl.AddressDaoImpl
+AddressService=com.liao.service.impl.AddressServiceImpl
+CommentDao=com.liao.dao.impl.CommentDaoImpl
+CommentService=com.liao.service.impl.CommentServiceImpl
+OrderDao=com.liao.dao.impl.OrderDaoImpl
+OrderService=com.liao.service.impl.OrderServiceImpl

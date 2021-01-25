@@ -1,0 +1,26 @@
+.goods {
+
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    /*muted: muted = "true";*/
+}
+
+
+.footer {
+    position: relative;
+    top: 33.5em;
+
+}
+
+.footer img {
+    position: relative;
+    /*width: 94.9em;*/
+    width: 100%;
+    height: 31.4em;
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<controller-mapping>
+	<!-- 用户注册 -->
+	<controller path="/servlet/RegisteredServel" class="com.liao.controller.UserController" method="registered"></controller>
+	<!-- 用户登录 -->
+	<controller path="/servlet/LogingSelectServlet" class="com.liao.controller.UserController" method="login"></controller>
+	<!-- 用户分页查询 -->	
+	<controller path="/servlet/UserSelectServlet" class="com.liao.controller.UserController" method="selectUserAll"></controller>
+	<!-- 用户添加 -->
+	<controller path="/servlet/AddUserServlet" class="com.liao.controller.UserController" method="userAdd"></controller>
+	<!-- 用户删除 -->
+	<controller path="/servlet/UserDeleteServlet" class="com.liao.controller.UserController" method="userDelete"></controller>
+	<!-- 用户修改 -->
+	<controller path="/servlet/UserServlet" class="com.liao.controller.UserController" method="userModify"></controller>
+	
+	<!-- 商品添加 -->
+	<controller path="/servlet/AddGoodsServlet" class="com.liao.controller.GoodsController" method="goodsAdd"></controller>
+	<!-- 商品修改 -->
+	<controller path="/servlet/GoodsServlet" class="com.liao.controller.GoodsController" method="goodsModify"></controller>
+	<!-- 商品删除 -->
+	<controller path="/servlet/GoodsDeleteServlet" class="com.liao.controller.GoodsController" method="goodsDelete"></controller>
+	<!-- 商品分页查询 -->
+	<controller path="/servlet/GoodsSelectServle" class="com.liao.controller.GoodsController" method="goodsSelectPaginaction"></controller>
+	<!-- 查询所有商品 -->
+	<controller path="/servlet/GoodsShowAllServlet" class="com.liao.controller.GoodsController" method="goodsSelectAll"></controller>
+	<!-- 商品图片查询 -->
+	<controller path="/servlet/SelectGoodsIdImg" class="com.liao.controller.GoodsController" method="showGoodsIdImg"></controller>
+	
+	
+	<!-- 商品类别添加 -->
+	<controller path="/servlet/AddCatrgoryServlet" class="com.liao.controller.CategoryController" method="categoryAdd"></controller>
+	<!-- 类别删除 -->
+	<controller path="/servlet/CategoryDeletServlet" class="com.liao.controller.CategoryController" method="categoryDelete"></controller>
+	<!-- 类别修改 -->
+	<controller path="/servlet/CategoryServlet" class="com.liao.controller.CategoryController" method="categoryModify"></controller>
+	<!-- 类别分页查询 -->
+	<controller path="/servlet/CategorySelectServlet" class="com.liao.controller.CategoryController" method="categorySelectPaginaction"></controller>
+	<!-- 所有类别查询 -->
+	<controller path="/servlet/Common" class="com.liao.controller.CategoryController" method="categorySelectAll"></controller>
+	
+	<!-- 商品图片上传 -->
+	<controller path="/servlet/GoodsImgUpload" class="com.liao.controller.ImgUploadController" method="GoodsImgUpload"></controller>
+	<!-- 用户头像上传 -->
+	<controller path="/servlet/UserImgUpload" class="com.liao.controller.ImgUploadController" method="UserImgUpload"></controller>
+	<!-- 购物车分页 -->
+	<controller path="/manager/servlet/ShoppingCartServlet" class="com.liao.controller.ShoppingCartController" method="shopinnCartSelectAll"></controller>
+	<!-- 购物车添加 -->
+	<controller path="/manager/servlet/AddShoppingCart" class="com.liao.controller.ShoppingCartController" method="addShopinnCartSelect"></controller>
+	<!-- 查询用户购物车 -->
+	<controller path="/manager/servlet/SelectUserShoppingCart" class="com.liao.controller.ShoppingCartController" method="shopinnCartUserIdAll"></controller>
+	<!-- 购物车数量修改 -->
+	<controller path="/manager/servlet/UpdateShoppingCart" class="com.liao.controller.ShoppingCartController" method="modiShoppingCartQuantity"></controller>
+	<!-- 购物车删除 -->
+	<controller path="/manager/servlet/deleteShoppingCart" class="com.liao.controller.ShoppingCartController" method="deleteShoppingCart"></controller>
+	<!-- 购物车订单提交 -->
+	<controller path="/manager/servlet/SettlementShoppingCart" class="com.liao.controller.ShoppingCartController" method="userShoppingCartSettlement"></controller>
+	<!-- 购物车订单删除 -->
+	<controller path="/manager/servlet/removeShoppingCartOrders" class="com.liao.controller.ShoppingCartController" method="removeShoppingCartOrders"></controller>
+	
+
+	<!-- 地址分页查询 -->
+	<controller path="/manager/servlet/AddressServel" class="com.liao.controller.AddressController" method="AddressSelectAll"></controller>
+	<!-- 查询用户地址 -->
+	<controller path="/manager/servlet/selectUserAddress" class="com.liao.controller.AddressController" method="selectUserAddress"></controller>
+	<!-- 用户地址添加 -->
+	<controller path="/manager/servlet/userAddressAdd" class="com.liao.controller.AddressController" method="addressAdd"></controller>
+	<!-- 用户地址删除 -->
+	<controller path="/manager/servlet/userAddressDelete" class="com.liao.controller.AddressController" method="userAddressDelete"></controller>
+
+
+
+	<!-- 订单查询-->
+	<controller path="/manager/servlet/OrderSelectServlet" class="com.liao.controller.OrderController" method="OrderSelectAll"></controller>
+	<!-- 根据ID订单查询-->
+	<controller path="/manager/servlet/UserIdOrderAll" class="com.liao.controller.OrderController" method="selectUserOrder"></controller>
+	
+	<!-- 用户下单功能-->
+	<controller path="/manager/servlet/UserOrderSettlement" class="com.liao.controller.OrderController" method="userOrderSettlement"></controller>
+	<!-- 用户支付功能-->
+	<controller path="/manager/servlet/UserOrderPay" class="com.liao.controller.OrderController" method="userPay"></controller>
+	<!-- 用户充值功能-->
+	<controller path="/manager/servlet/UserRechargs" class="com.liao.controller.OrderController" method="userRechargs"></controller>
+	<!-- 用户确认收货功能-->
+	<controller path="/manager/servlet/UserconfirmOrder" class="com.liao.controller.OrderController" method="confirmOrder"></controller>
+	
+	
+	
+	<!-- 评论查询 -->
+	<controller path="/manager/servlet/CommentServlet" class="com.liao.controller.CommonController" method="CommentSelectAll"></controller>
+	<!-- 根据ID查询评论 -->
+	<controller path="/manager/servlet/GoodsIdCommernt" class="com.liao.controller.CommonController" method="goodsIdComment"></controller>
+	<!-- 评论添加功能 -->
+	<controller path="/manager/servlet/usreAddCommernt" class="com.liao.controller.CommonController" method="addGoodsCommon"></controller>
+	
+
+	
+
+	<!--根据商品ID查询商品图片-->
+	<controller path="/servlet/GoodsIdImgSelect" class="com.liao.controller.GoodsController" method="showGoodsIdImg"></controller>
+
+</controller-mapping>

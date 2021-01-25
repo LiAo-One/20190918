@@ -1,0 +1,92 @@
+.title-head {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    width: 59.1em;
+    height: 19.4em;
+    top: 2em;
+}
+
+.goods-data {
+    position: relative;
+    height: 4em;
+}
+
+.line {
+    width: 5em;
+}
+
+input {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0em 0.5em 1.3em 0em;
+    border: 1px solid #053B4F;
+}
+
+button {
+    padding: 0.4em 1.5em 0.4em 1.5em;
+    background-color: #053B4F;
+    border: 1px solid #053B4F;
+    color: #fff;
+}
+
+.empty {
+    position: relative;
+    left: 1.6em;
+
+}
+
+
+.goods-data .ddl-title {
+    position: relative;
+    left: 21.3em;
+    top: -3.9em;
+}
+
+.goods-data .ddl-title .list {
+    position: relative;
+    width: 12.4em;
+    padding: 0.6em 0.7em 0.58em 0.7em;
+    border: 0.0625em solid #ccc;
+}
+
+.goods-data .ddl-title .item-list {
+    position: absolute;
+    width: 112.2%;
+    border: 0.0625em solid #ccc;
+    z-index: 2;
+    max-height: 10em;
+    overflow: auto;
+    transition: all 250ms;
+    background-color: #ffffff;
+}
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+.upload {
+    position: relative;
+    width: 20em;
+    height: 19.4em;
+    left: 39.1em;
+    top: -18.2em;
+    border: 1px solid #ccc;
+}
+
+.uoload button {
+    margin: 0.6em 0.6em;
+}
+
+#upload-list {
+    position: relative;
+    left: 0.6em;
+}
+
+.upload-img {
+    position: relative;
+    margin: 0.1em;
+    width: 3em;
+    height: 3em;
+}
+

@@ -1,0 +1,64 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.title-text {
+    position: relative;
+    background-color: white;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    margin-bottom: 0.3em;
+}
+
+.title-text .p1 {
+    margin: 0.5em;
+    font-size: 1.1em;
+}
+
+.title-text .p2 {
+    margin: 0.1em 0.1em 0.7em 0.5em;
+    font-size: 1.1em;
+}
+
+.condition {
+    position: relative;
+    padding: 0.5em 0.1em 0.1em 0.1em;
+    height: 3.3em;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    float: left;
+    width: 13em;
+}
+
+.goodsType {
+    position: relative;
+    top: 0.1em;
+}
+
+input {
+    margin: 0.1em 0.1em 0.1em 0.1em;
+    width: 8em;
+    height: 2em;
+}
+
+#myddl_s .list {
+    position: relative;
+    width: 8em;
+    height: 2em;
+    top: -1.3em;
+    padding: 0.2em 0.1em 0.1em 0.7em;
+
+}
+
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+

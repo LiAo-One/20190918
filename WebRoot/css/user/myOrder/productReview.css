@@ -1,0 +1,314 @@
+.container:after {
+	clear: both;
+}
+
+.container:before,.container:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.goods-comment-detail ul,.goods-comment-detail li,.goods-comment-detail p,.goods-comment-detail dl,.goods-comment-detail dd,.goods-comment-detail h1,.goods-comment-detail h2,.goods-comment-detail h3,.goods-comment-detail h4,.goods-comment-detail h5,.goods-comment-detail h6
+	{
+	padding: 0;
+	margin: 0;
+}
+
+/**********************************/
+.span16 {
+	width: 978px;
+}
+
+.goods-comment-detail {
+	background: #ffffff;
+}
+
+.goods-comment-detail .container {
+	width: 100%;
+}
+
+.container {
+	width: 1226px; *
+	zoom: 1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row {
+	margin-left: -14px;
+	_margin-left: 0; *
+	zoom: 1;
+}
+
+.comment-top {
+	padding: 48px 0 40px 48px;
+	line-height: 42px;
+	font-size: 32px;
+	color: #757575;
+}
+
+.comment-top h2 {
+	color: #757575;
+	font-size: 34px;
+	font-family: 'Microsfot Yahei';
+}
+
+.comment-content {
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+.comment-content .cont-top {
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 29px;
+	min-height: 116px;
+}
+
+.comment-content .cont-top .top-l {
+	width: 252px;
+	float: left;
+}
+
+.comment-content .cont-top .top-common {
+	height: 38px;
+	line-height: 38px;
+}
+
+.comment-content .cont-top .common-l {
+	display: inline-block; *
+	zoom: 1; *
+	display: inline;
+	padding-right: 16px;
+	font-size: 16px;
+	color: #000;
+}
+
+.comment-content .cont-top .common-r {
+	display: inline-block; *
+	zoom: 1; *
+	display: inline;
+	vertical-align: top;
+}
+
+.comment-content .cont-top .chose {
+	color: #FF6600;
+}
+
+.comment-content .cont-top .star {
+	display: inline-block; *
+	zoom: 1; *
+	display: inline;
+	font-size: 22px;
+	margin-right: 3px;
+	color: #EAEAEA;
+}
+
+.goods-comment-detail i {
+	font-style: normal;
+}
+
+.comment-content .cont-top .top-common {
+	height: 38px;
+	line-height: 38px;
+}
+
+.comment-content .cont-top .top-r {
+	float: right;
+	width: 630px;
+}
+
+.comment-content .cont-top .right-text {
+	position: relative;
+	width: 630px;
+}
+
+.comment-content .cont-top textarea {
+	display: block;
+	width: 613px;
+	height: 99px;
+	border: 1px solid #e0e0e0;
+	padding: 15px 0 0 15px;
+	line-height: 26px;
+	font-size: 16px;
+	color: #757575;
+	text-indent: 30px;
+	overflow-x: hidden;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+	overflow: auto;
+	vertical-align: top;
+}
+
+.comment-content .cont-top .icon {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 18px;
+	width: 17px;
+	height: 17px;
+	background: url("../../../imgas/pen.png");
+	background-size: 100% 100%;
+}
+
+.comment-content .words {
+	position: absolute;
+	bottom: 10px;
+	right: 22px;
+	width: 100px;
+	height: 29px;
+	line-height: 20px;
+	color: #BDBDBD;
+	font-size: 14px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.comment-content .cont-top .submit {
+	width: 108px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 17px;
+	color: #757575;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #e0e0e0;
+	margin-top: 14px;
+	margin-right: 17px;
+	float: right;
+	background: none;
+}
+
+.comment-content .cont-content {
+	padding-top: 48px;
+}
+
+.comment-content .cont-content .comment-common {
+	padding-bottom: 48px;
+	min-height: 183px;
+}
+
+.comment-content .cont-content .common-left {
+	width: 150px;
+	float: left;
+}
+
+.comment-content .cont-content .common-left img {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #e0e0e0;
+	display: block;
+}
+
+.comment-content .cont-content .common-left .title {
+	width: 120px;
+	text-align: center;
+	line-height: 22px;
+	padding-top: 9px;
+	font-size: 14px;
+	color: #000000;
+	white-space: normal;
+}
+
+.comment-content .cont-content .common-right {
+	float: right;
+	width: 732px;
+}
+
+.comment-content .cont-content .right-top {
+	width: 100%;
+	height: 41px;
+	line-height: 32px;
+}
+
+.comment-content .cont-content .inline {
+	display: inline-block; *
+	zoom: 1; *
+	display: inline;
+	padding-right: 16px;
+	font-size: 16px;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.comment-content .cont-content .chose {
+	color: #FF6600;
+	display: inline-block;
+}
+
+.goods-comment-detail i {
+	font-style: normal;
+}
+
+.comment-content .cont-content .perform {
+	color: #feb94f;
+	font-size: 16px;
+}
+
+.comment-content .cont-content .inline {
+	display: inline-block; *
+	zoom: 1; *
+	display: inline;
+	padding-right: 16px;
+	font-size: 16px;
+	color: #000000;
+	vertical-align: middle;
+}
+
+.goods-comment-detail i {
+	font-style: normal;
+	color: #feb94f;
+}
+
+.comment-content .cont-content .perform {
+	color: #feb94f;
+	font-size: 16px;
+}
+
+.comment-content .cont-content .right-middle {
+	width: 100%;
+	position: relative;
+}
+
+.comment-content .cont-content .middle-text {
+	display: block;
+	width: 715px;
+	height: 65px;
+	border: 1px solid #e0e0e0;
+	padding: 12px 0 0 15px;
+	line-height: 22px;
+	font-size: 14px;
+	color: #757575;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+}
+
+.comment-content .cont-content .right-bot {
+	margin-top: 14px;
+}
+
+.comment-content .cont-content .right-bot .ensure {
+	width: 108px;
+	height: 30px;
+	line-height: 30px;
+	color: #757575;
+	font-size: 14px;
+	margin-right: 18px;
+	text-align: center;
+	border: 1px solid #e0e0e0;
+	float: right;
+	background: transparent;
+}

@@ -1,0 +1,150 @@
+.order-list {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+.uc-order-item {
+    /*border-color: #b0b0b0;*/
+    border: 1px solid #b0b0b0;
+}
+
+.order-list .uc-order-item .order-remove {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.order-list .uc-order-item .order-remove:hover {
+    background-color: black;
+}
+
+.order-list .uc-order-item .order-remove i {
+    font-size: 1.4em;
+    color: #757575;
+}
+
+.order-detail .order-summary {
+    padding: 25px 30px 1px;
+}
+
+.order-detail .order-summary .order-status {
+    color: #b0b0b0;
+    font-size: 18px;
+}
+
+.order-detail-table {
+    width: 100%;
+}
+.order-list-box .order-detail-table th {
+
+}
+.order-detail .order-detail-table th.col-main {
+    padding-right: 10px;
+    margin-left: 1em;
+
+}
+
+.order-detail .order-detail-table th.col-main .caption-info{
+    text-align: left;
+}
+
+.order-detail .order-detail-table th p {
+    margin-left: 2em;
+    font-size: 1em;
+    color: #757575;
+    font-weight: lighter;
+}
+
+.order-detail .order-detail-table th p span {
+    color: #e0e0e0;
+    margin: 0 .25em;
+    font-family: sans-serif;
+}
+
+.order-detail .order-detail-table th.col-sub {
+    /*padding-right: 10px;*/
+    position: relative;
+    left: 0em;
+}
+
+.order-detail .order-detail-table th.col-sub .caption-price .num {
+    height: 18px;
+    margin-right: 5px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    color: #333;
+}
+
+.order-detail-table .order-items{
+    padding: 0 30px;
+}
+.order-items .goods-list {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.goods-list{
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.goods-list .figure a{
+    display: block;
+    color: #757575;
+    text-decoration: none;
+}
+
+.goods-list .figure img{
+    width: 80px;
+    height: 80px;
+}
+.goods-list .figure-thumb{
+
+}
+
+.order-items .goods-list .name{
+    margin: 0;
+    position: relative;
+    top: -4.2em;
+    left: 7.3em;
+}
+.order-items .goods-list .name a{
+    color: #333;
+}
+.order-items .goods-list .figure{
+
+}
+
+.order-items .goods-list .price{
+    margin: 0;
+    position: relative;
+    top: -3.9em;
+    left: 7.3em;
+}
+
+.order-actions{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.order-actions a{
+    display: block;
+    margin: 0 0 10px auto;
+    /*border-color: #b0b0b0;*/
+    border: 1px solid #b0b0b0;
+    background: #fff;
+    color: #757575;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+
+

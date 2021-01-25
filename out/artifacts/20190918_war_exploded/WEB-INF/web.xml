@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+    <!--<servlet>
+      <servlet-name>CategorySelectServlet</servlet-name>
+      <servlet-class>com.liao.servlet.CategorySelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>GoodsSelectServlet</servlet-name>
+      <servlet-class>com.liao.servlet.GoodsSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>UserSelectServlet</servlet-name>
+      <servlet-class>com.liao.servlet.UserSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>Liao</servlet-name>
+      <servlet-class>com.liao.servlet.Liao</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>LogingSelectServlet</servlet-name>
+      <servlet-class>com.liao.servlet.LogingSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>RegisteredServel</servlet-name>
+      <servlet-class>com.liao.servlet.RegisteredServel</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>GetCodePicServlet</servlet-name>
+      <servlet-class>com.liao.servlet.GetCodePicServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>UserExitServlet</servlet-name>
+      <servlet-class>com.liao.servlet.UserExitServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>CommentServlet</servlet-name>
+      <servlet-class>com.liao.servlet.CommentServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>AddGoodsServlet</servlet-name>
+      <servlet-class>com.liao.servlet.add.AddGoodsServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>Common</servlet-name>
+      <servlet-class>com.liao.servlet.common.Common</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>AddUserServlet</servlet-name>
+      <servlet-class>com.liao.servlet.add.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>AddCatrgoryServlet</servlet-name>
+      <servlet-class>com.liao.servlet.add.AddCatrgoryServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>ShoppingCartServlet</servlet-name>
+      <servlet-class>com.liao.servlet.ShoppingCartServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>login</servlet-name>
+      <servlet-class>com.liao.servlet.login</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>GoodsShowAllServlet</servlet-name>
+      <servlet-class>com.liao.servlet.GoodsShowAllServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>GoodsServlet</servlet-name>
+      <servlet-class>com.liao.servlet.modify.GoodsServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>UserServlet</servlet-name>
+      <servlet-class>com.liao.servlet.modify.UserServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>CategoryServlet</servlet-name>
+      <servlet-class>com.liao.servlet.modify.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>GoodsDeleteServlet</servlet-name>
+      <servlet-class>com.liao.servlet.delete.GoodsDeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>UserDeleteServlet</servlet-name>
+      <servlet-class>com.liao.servlet.delete.UserDeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>CategoryDeletServlet</servlet-name>
+      <servlet-class>com.liao.servlet.delete.CategoryDeletServlet</servlet-class>
+    </servlet>
+    <servlet>
+      <servlet-name>UploadServlet</servlet-name>
+      <servlet-class>com.liao.servlet.UploadServlet</servlet-class>
+    </servlet>
+    -->
+    <!--
+
+    <servlet>
+      <servlet-name>AddGoodsImgServlet</servlet-name>
+      <servlet-class>com.liao.servlet.add.AddGoodsImgServlet</servlet-class>
+    </servlet>
+
+
+    -->
+    <servlet>
+        <servlet-name>FilterDispatch</servlet-name>
+        <servlet-class>com.liao.servlet.FilterDispatch</servlet-class>
+    </servlet>
+
+
+    <!-- 过滤器 -->
+    <filter>
+        <filter-name>EncodeFilter</filter-name>
+        <filter-class>com.liao.filter.EncodeFilter</filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>AccessFilter</filter-name>
+        <filter-class>com.liao.filter.AccessFilter</filter-class>
+    </filter>
+
+    <!-- 在线人数 配置监听器 -->
+    <listener>
+        <listener-class>com.liao.listener.OnlineNumberListener</listener-class>
+    </listener>
+
+    <!-- 总浏览人数 配置监听器 -->
+    <listener>
+        <listener-class>com.liao.listener.EveryoneListener</listener-class>
+    </listener>
+
+
+    <!--<servlet-mapping>
+      <servlet-name>CategorySelectServlet</servlet-name>
+      <url-pattern>/servlet/CategorySelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GoodsSelectServlet</servlet-name>
+      <url-pattern>/servlet/GoodsSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>UserSelectServlet</servlet-name>
+      <url-pattern>/servlet/UserSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>Liao</servlet-name>
+      <url-pattern>/servlet/Liao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>LogingSelectServlet</servlet-name>
+      <url-pattern>/servlet/LogingSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>RegisteredServel</servlet-name>
+      <url-pattern>/servlet/RegisteredServel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GetCodePicServlet</servlet-name>
+      <url-pattern>/servlet/GetCodePicServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>UserExitServlet</servlet-name>
+      <url-pattern>/servlet/UserExitServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>CommentServlet</servlet-name>
+      <url-pattern>/servlet/CommentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>AddGoodsServlet</servlet-name>
+      <url-pattern>/servlet/AddGoodsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>Common</servlet-name>
+      <url-pattern>/servlet/Common</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>AddUserServlet</servlet-name>
+      <url-pattern>/servlet/AddUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>AddCatrgoryServlet</servlet-name>
+      <url-pattern>/servlet/AddCatrgoryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>ShoppingCartServlet</servlet-name>
+      <url-pattern>/manager/servlet/ShoppingCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>login</servlet-name>
+      <url-pattern>/servlet/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GoodsShowAllServlet</servlet-name>
+      <url-pattern>/servlet/GoodsShowAllServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GoodsServlet</servlet-name>
+      <url-pattern>/servlet/GoodsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>UserServlet</servlet-name>
+      <url-pattern>/servlet/UserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>CategoryServlet</servlet-name>
+      <url-pattern>/servlet/CategoryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>GoodsDeleteServlet</servlet-name>
+      <url-pattern>/servlet/GoodsDeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>UserDeleteServlet</servlet-name>
+      <url-pattern>/servlet/UserDeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>CategoryDeletServlet</servlet-name>
+      <url-pattern>/servlet/CategoryDeletServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>UploadServlet</servlet-name>
+      <url-pattern>/servlet/UploadServlet</url-pattern>
+    </servlet-mapping>
+    -->
+
+    <!--<servlet-mapping>
+      <servlet-name>AddGoodsImgServlet</servlet-name>
+      <url-pattern>/servlet/AddGoodsImgServlet</url-pattern>
+    </servlet-mapping>
+
+
+    -->
+    <servlet-mapping>
+        <servlet-name>FilterDispatch</servlet-name>
+        <url-pattern>*.action</url-pattern>
+    </servlet-mapping>
+
+
+    <!--<servlet-mapping>
+      <servlet-name>FilterDispatch</servlet-name>
+      <url-pattern>/servlet/FilterDispatch</url-pattern>
+    </servlet-mapping>
+    -->
+
+
+    <!-- 过滤器 -->
+    <filter-mapping>
+        <filter-name>EncodeFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>AccessFilter</filter-name>
+        <url-pattern>/manager/*s</url-pattern>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>jsp/login.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+
+    <context-param>
+        <param-name>1</param-name>
+        <param-value>666</param-value>
+    </context-param>
+</web-app>

@@ -1,0 +1,153 @@
+/*表格*/
+table {
+    width: 100%;
+    margin: 0em auto;
+    /*border:0.0625em solid #ccc;*/
+    border-collapse: collapse;
+    font-family: "微软雅黑";
+}
+
+/*table tr:nth-child(odd){
+	background-color: #fff;
+}
+
+table tr:nth-child(odd){
+	background-color: #6CA2C8;
+}*/ /*标题*/
+th {
+    padding: 0.5em 0.9em 0.5em 0.9em;
+    border: none;
+    background-color: #1e1e26;
+    color: #fff;
+}
+
+.tr-item:HOVER {
+    background-color: #6fa3c4;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*身体*/
+td {
+    text-align: center;
+    border: none;
+    padding: 0.6em 0.9em 0.4em 0.9em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.td-select {
+    background-color: #6fa3c4;
+    color: #fff;
+}
+
+.fa {
+    color: #fff;
+    border-radius: 0.3em;
+}
+
+/*性别*/
+.fa-woman {
+    background-color: #21A3F1;
+    padding: 0.6em 0.7em 0.56em 0.78em;
+}
+
+.fa-man {
+    background-color: #A73A5D;
+    padding: 0.6em 0.72em 0.62em 0.72em;
+}
+
+/*头像*/
+td img {
+    width: 35px;
+    height: 35px;
+}
+
+#goods {
+    margin: 1em 0em 2em 0em;
+}
+
+#user {
+    margin: 1em 0em 2em 0.5em;
+}
+
+#table {
+    margin: 1em 0em 2em 0em;
+}
+
+/*对齐方式*/
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/*底部翻页*/
+.page-limit {
+    width: 100%;
+}
+
+.total-td {
+    padding-left: 1.5em;
+    width: 12em;
+}
+
+.page-limit #pageSize {
+    display: inline-block;
+    width: 6em;
+}
+
+button {
+    padding: 0.2em 0.6em 0.4em 0.7em;
+}
+
+.prev-td {
+    width: 20em;
+}
+
+#prevBtn {
+    margin: 0em 1em 0em 0em;
+}
+
+#nextBut {
+    margin: 0em -0.2em 0em 1em;
+}
+
+.go-td {
+    position: relative;
+    width: 8.4em;
+}
+
+.go {
+    position: relative;
+    width: 3.6em;
+    padding: 0.3em 0.1em 0.3em 1em;
+}
+
+.toGo {
+    position: relative;
+    margin: 0em -0.2em 0em 1em;
+    top: 0em;
+    left: 2.2em;
+}
+
+.page-limit .list {
+    padding: 0.4em 3.8em 0.2em 0em;
+    margin: 0.5em 0em 0.4em 0em;
+}
+
+.page-limit .list-arrow {
+    top: 0.75em;
+    right: 0.6em;
+}
+
+.page-limit .item {
+    padding: 0.32em 0.7em 0.32em 0.7em;
+    margin: 0.1em 0.1em 0.1em 0.1em
+}

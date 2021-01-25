@@ -1,0 +1,25 @@
+/* 提示信息组件 css */
+.dialog-tips {
+    position: absolute;
+    top: -1em;
+    left: 0em;
+    width: 100%;
+    text-align: center;
+    transition: all 250ms;
+    opacity: 0;
+    z-index: 5;
+}
+
+.dialog-tips .tips-cls {
+    display: inline-block;
+    color: #fff;
+    padding: 0.2em 1em;
+}
+
+.tips-success {
+    background: green !important;
+}
+
+.tips-error {
+    background: #e10000 !important;
+}

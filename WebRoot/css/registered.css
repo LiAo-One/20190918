@@ -1,0 +1,142 @@
+.body {
+    position: relative;
+    height: 80%;
+    padding-top: 59px;
+    background-color: #f9f9f9;
+}
+
+.regis {
+    position: relative;
+    width: 61em;
+    height: 39.1428em;
+    padding: 0em 18.8em 0em 18.8em;
+    margin: 0em auto;
+    background-color: white;
+}
+
+.regis-log {
+    position: relative;
+    width: 3.6625em;
+    height: 3.3em;
+    background-image: url(../imgas/12.png);
+    background-size: 100% 100%;
+    margin: 0em auto;
+}
+
+.body .head-txt {
+    position: relative;
+    height: 2em;
+    font-size: 30px;
+    top: 1.2125em;
+    padding-bottom: 2.8125em;
+    text-align: center;
+}
+
+.line {
+    position: relative;
+}
+
+.haed-ch {
+    position: relative;
+    margin-top: 2.1em;
+}
+
+.haed-ph {
+    position: relative;
+    margin-top: 0.9em;
+}
+
+.head-regis-txt {
+    color: #666;
+}
+
+.regis .line input {
+    outline: none;
+    position: relative;
+    width: 100%;
+    padding: 0.75em 0.5em 0.75em 1em;
+    margin: 0.6em 0em 0.4em 0em;
+}
+
+input[type="text"] {
+    border: 0.0625em solid #ccc;
+}
+
+input[type="button"], button {
+    cursor: pointer;
+    background-color: #f56600;
+    border: 0.1em solid #f56600;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    top: 0.9em;
+    color: #fff;
+}
+
+.policy {
+    position: relative;
+    width: 88%;
+    top: 6.2em;
+    left: 2.5em;
+}
+
+.policy p {
+    float: left;
+    height: 1em;
+}
+
+.policy .p-1 {
+    color: #666;
+}
+
+.policy .p-2 {
+    font-weight: bolder;
+    margin-left: 0.3em;
+}
+
+.buttom {
+    position: relative;
+    color: #757575;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 4.45em 0em 0em;
+    height: 9.25em;
+    margin: 0em auto;
+}
+
+.buttom .lang_select {
+    position: relative;
+    height: 2.75em;
+    padding: 0.625em;
+}
+
+.buttom .lang_select .current {
+    position: relative;
+    width: 19.1em;
+    margin: 0em auto;
+}
+
+.buttom .intro {
+    position: relative;
+    width: 41.5em;
+    margin: 0em auto;
+}
+
+.current a {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.intro p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/*输入框错误信息*/
+.errorTips {
+    position: absolute;
+    top: 1.4em;
+    right: 1.1em;
+    color: red;
+    transition: all 250ms;
+    opacity: 0;
+}

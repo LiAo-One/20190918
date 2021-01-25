@@ -1,0 +1,208 @@
+/**
+/*登录*/
+/* *!*/
+.h_panel {
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    height: 6.125em;
+    margin: 0em auto;
+    background-color: #f8f8f8;
+}
+
+.logMi {
+    position: relative;
+    width: 14.3em;
+    height: 6.825em;
+    background-size: 100% 100%;
+    top: 0.1em;
+    right: -12.6%;
+    background-image: url(../imgas/mistore_logo.jpg);
+}
+
+.bodys {
+    position: relative;
+    width: 100%;
+    height: 42.1375em;
+    margin: 0em auto;
+    background-image: url(../imgas/123.jpg);
+    background-size: 100% 100%;
+}
+
+.loginPanle {
+    position: relative;
+    width: 29.7875em;
+    height: 38em;
+    border: 0.0625em solid #ffffff;
+    background-color: white;
+    top: 5.4%;
+    left: 60.2%;
+    padding: 1em 0em 1em 0em;
+}
+
+.logingText {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    color: #f56600;
+    top: 0.9em;
+    right: 3.1em;
+}
+
+.loginDes {
+    position: relative;
+    width: 4em;
+    text-align: center;
+    font-size: 24px;
+    color: #666666;
+    top: -0.4em;
+    right: -62.8%;
+}
+
+.line {
+    position: relative;
+    margin: 2.5em 2.5em 2.5em 2.5em;
+    font-size: 12px;
+}
+
+
+.loginPanle .code {
+    width: 45%;
+}
+
+.loginPanle .separate {
+    width: 1px;
+    height: 24px;
+    margin: 0 1.1em 0 4em;
+    border: 1px solid #e0e0e0;
+}
+
+.line .left {
+    position: absolute;
+    color: #1e1e26;
+    top: -2.3em;
+    left: 0em;
+}
+
+.line .right {
+    position: absolute;
+    color: #f56600;
+    top: -2.3em;
+    right: 0em;
+}
+
+.line .left a {
+    color: #f56600;
+}
+
+.line .right a:hover {
+    color: #f56600;
+}
+
+
+.bodys .oth_type_txt {
+    position: relative;
+    width: 25em;
+    height: 1.8em;
+    margin: 0em auto;
+    top: 2.025em;
+    background-size: 100% 100%;
+    background-image: url(../imgas/qweqwe.png);
+
+}
+
+.btn {
+    position: relative;
+    width: 20.3em;
+    height: 3.2em;
+    margin: 0em auto;
+    top: 4.2em;
+    background-image: url(../imgas/4.png);
+    background-size: 100% 100%;
+}
+
+.buttom {
+    position: relative;
+    color: #757575;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 6.25em 0em 0em;
+    width: 100%;
+    height: 9.65em;
+    margin: 0em auto;
+}
+
+.buttom .lang_select {
+    position: relative;
+    height: 2.75em;
+    padding: 0.625em;
+    margin-top: -2.8em;
+}
+
+.buttom .lang_select .current {
+    position: relative;
+    width: 19.1em;
+    margin: 0em auto;
+}
+
+.buttom .intro {
+    position: relative;
+    width: 41.5em;
+    margin: 0em auto;
+}
+
+.btn i {
+    position: relative;
+    top: -11em;
+    right: 2.2em;
+}
+
+.current a {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.intro p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+input[type="text"], input[type="password"], input[type="button"], textarea, button {
+    outline: none;
+    padding: 0.8125em 1em 0.8125em 0.875em;
+    width: 100%;
+    height: 3.675em;
+    border: 0.1em solid #ccc;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="button"]:focus, textarea:focus, button:focus {
+    border: 0.1em solid #f56600;
+}
+
+input[type="button"], button {
+    cursor: pointer;
+    background-color: #f56600;
+    border: 0.1em solid #f56600;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+/*输入框错误信息*/
+.errorTips {
+    position: absolute;
+    top: 1.18em;
+    right: 1.2em;
+    color: red;
+    transition: all 250ms;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+

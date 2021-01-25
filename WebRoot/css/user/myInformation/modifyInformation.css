@@ -1,0 +1,114 @@
+.uc-main-box {
+    padding: 36px 0;
+}
+
+.uc-content-box {
+    margin: 0 48px;
+}
+
+.portal-content-box .box-bd {
+    padding-top: 24px;
+}
+
+.portal-content-box .user-card {
+    position: relative;
+    float: left;
+    width: 302px;
+    height: 160px;
+    padding-left: 180px;
+    padding-top: 40px;
+}
+.portal-content-box .user-card .username {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #616161;
+}
+.portal-content-box .user-card .tip {
+    margin: 0 0 10px;
+    color: #b0b0b0;
+}
+.portal-content-box .user-card .link {
+    font-size: 12px;
+    color: #ff6700;
+}
+.portal-content-box .user-card .avatar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 4px;
+    border: 1px solid #e0e0e0;
+    border-radius: 150px;
+}
+
+
+.portal-content-box .user-actions {
+    float: right;
+    width: 358px;
+    margin-top: 35px;
+}
+
+.portal-content-box .action-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #757575;
+}
+.portal-content-box .action-list li {
+    position: relative;
+    padding: 6px 0;
+}
+.portal-content-box .action-list .level-3 {
+    color: #83c44e;
+}
+
+.portal-content-box .action-list .tel {
+    list-style-type: none;
+    color: #757575;
+}
+.portal-content-box .portal-sub {
+    border-top: 1px solid #e0e0e0;
+}
+.editbasicinfo {
+    padding: 40px 0 0 20px;
+}
+.infobox {
+    padding-bottom: 10px;
+    line-height: 42px;
+}
+.c_b {
+    zoom: 1;
+}
+.c_b:after {
+    clear: both;
+}
+.c_b:before, .c_b:after {
+    content: "";
+    display: block;
+}
+.infobox dt {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    overflow: hidden;
+    _clear: left;
+}
+.infobox dt, .infobox dd {
+    padding-bottom: 10px;
+    _display: inline;
+}
+.labelbox, .input_bg {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.labelbox, .input_bg, .tits_list, .borderbox {
+    border: 1px solid #e8e8e8;
+}
+a, label, :focus {
+    outline: 0 none;
+}

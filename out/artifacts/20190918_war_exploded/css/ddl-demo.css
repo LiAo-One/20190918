@@ -1,0 +1,90 @@
+.ddl-title {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.ddl-title:HOVER {
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    padding: 0.5em 0.7em 0.58em 0.7em;
+    border: 0.0625em solid #ccc;
+}
+
+
+.list-arrow {
+    position: absolute;
+    width: 0em;
+    height: 0em;
+    border-top: 0.4em solid #ccc;
+    border-right: 0.4em solid #fff;
+    border-bottom: 0.4em solid #fff;
+    border-left: 0.4em solid #fff;
+    right: 1.3em;
+    top: 1.1em;
+}
+
+.item-list {
+    position: absolute;
+    width: 100%;
+    border: 0.0625em solid #ccc;
+    z-index: 2;
+    max-height: 10em;
+    overflow: auto;
+    transition: all 250ms;
+    background-color: #ffffff;
+}
+
+.item {
+    padding: 0.55em 0.7em 0.55em 0.7em;
+    transition: all 250ms;
+}
+
+.item:HOVER {
+    background-color: #f56600;
+    color: #fff;
+}
+
+.item-select {
+    background-color: #f56600 !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

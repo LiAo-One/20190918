@@ -1,0 +1,56 @@
+/*计算器*/
+.calculator {
+    position: relative;
+    width: 23em;
+    height: 25.4em;
+    /*border: 0.0625em solid royalblue;*/
+    margin: 0em auto;
+    top: 15%;
+}
+
+.screen {
+    height: 5em;
+
+}
+
+/*屏幕*/
+.txt {
+    width: 100%;
+    height: 5em;
+}
+
+/*按钮*/
+.btn {
+    position: relative;
+    width: 5.5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0em -0.2em 0em;
+}
+
+
+.btn_click {
+    position: relative;
+    width: 5.5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0em -0.2em 0em;
+}
+
+.btns {
+    position: relative;
+    width: 5.5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0em -0.2em 0em;
+    box-shadow: inset -2px -2px 8px #ccc;
+}
+
+
+.btn_clicks {
+    position: relative;
+    width: 5.5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0.5em 0em -0.2em 0em;
+    background-color: black;
+    color: #ffffff;
+}
+
+

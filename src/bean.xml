@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="Transaction" class="com.liao.transaction.impl.TransactionImpl"></bean>
+    <bean id="UserDao" class="com.liao.dao.impl.UserDaoImpl"></bean>
+    <bean id="UserService" class="com.liao.service.impl.UserServiceImpl"></bean>
+    <bean id="GoodsDao" class="com.liao.dao.impl.GoodsDaoImpl"></bean>
+    <bean id="GoodsService" class="com.liao.service.impl.GoodsServiceImpl"></bean>
+    <bean id="CategoryDao" class="com.liao.dao.impl.CategoryDaoImpl"></bean>
+    <bean id="CategoryService" class="com.liao.service.impl.CategoryServiceImpl"></bean>
+    <bean id="ShoppingCartDao" class="com.liao.dao.impl.ShoppingCartDaoimpl"></bean>
+    <bean id="ShoppingCartService" class="com.liao.service.impl.ShoppingCartServiceImpl"></bean>
+    <bean id="AddressDao" class="com.liao.dao.impl.AddressDaoImpl"></bean>
+    <bean id="AddressService" class="com.liao.service.impl.AddressServiceImpl"></bean>
+    <bean id="CommentDao" class="com.liao.dao.impl.CommentDaoImpl"></bean>
+    <bean id="CommentService" class="com.liao.service.impl.CommentServiceImpl"></bean>
+    <bean id="OrderDao" class="com.liao.dao.impl.OrderDaoImpl"></bean>
+    <bean id="OrderService" class="com.liao.service.impl.OrderServiceImpl"></bean>
+    <bean id="GoodsImgDao" class="com.liao.dao.impl.GoodsImgDaoImpl"></bean>
+    <bean id="GoodsImgService" class="com.liao.service.impl.GoodsImgServiceImpl"></bean>
+</beans>
